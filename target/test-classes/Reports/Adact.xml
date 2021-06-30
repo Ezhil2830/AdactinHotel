@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="68.296144">
+<testcase classname="To validate the login functionality" name="To validate login using invalid credentials" time="8.805581">
+<system-out><![CDATA[Given User is in adactinhotelapp login page.................................passed
+When User enters invalid "sql" and "sql@123"................................passed
+And click login button......................................................passed
+Then User must validate the results based on "<combination>"................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality" name="To validate login using invalid credentials 2" time="7.83316">
+<system-out><![CDATA[Given User is in adactinhotelapp login page.................................passed
+When User enters invalid "java" and "java@12"...............................passed
+And click login button......................................................passed
+Then User must validate the results based on "<combination>"................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality" name="To validate login using invalid credentials 3" time="7.811208">
+<system-out><![CDATA[Given User is in adactinhotelapp login page.................................passed
+When User enters invalid "python" and "python@12"...........................passed
+And click login button......................................................passed
+Then User must validate the results based on "<combination>"................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality" name="To validate login using invalid credentials 4" time="8.862568">
+<system-out><![CDATA[Given User is in adactinhotelapp login page.................................passed
+When User enters invalid "Ezhilpraga" and "XGHXR5"..........................passed
+And click login button......................................................passed
+Then User must validate the results based on "<combination>"................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality" name="To validate login without entering required credentials." time="10.462815">
+<system-out><![CDATA[Given User is in adactinhotelapp login page.................................passed
+When click login button.....................................................passed
+Then User must be in invalid credentials page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="To Validate the search page in adactinhotelapp" time="24.520812">
+<system-out><![CDATA[Given User is in adactinhotelapp login page.................................passed
+When user enter valid "Ezhilpraga" and "XGHXR5".............................passed
+And user click login button.................................................passed
+And user select and enters location,hotel,room type,number of rooms,"26/06/2021","<check out date>",adults per room,children per room..passed
+And user click search button................................................passed
+And user click the radio button.............................................passed
+And user click continue button..............................................passed
+And user book the hotel by entering  the details "Ezhil","Maha","chennai","1234657890123456","123",creditcardtype,month,year.passed
+And user click book now button..............................................passed
+Then user must be in select page............................................passed
+And user must be in booking hotel page......................................passed
+And user will get order id..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
